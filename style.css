@@ -1,0 +1,285 @@
+@import url('https://fonts.googleapis.com/css2?display=swap&family=Lexend:wght@400;500;700;900&family=Noto+Sans:wght@400;500;700;900');
+
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+
+body{
+  font-family: 'Lexend','Noto Sans' ,sans-serif;
+  background-color: #111518;
+  color: #f4f4f4;
+  padding: 38rem 0;
+  padding-top: 43rem;
+}
+
+.nav-bar{
+  padding: 15px 30px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 12px;
+  z-index: 999;
+  top: 0;
+  background-color: #11191f;
+  position: fixed;
+  width: 100%;
+  border-bottom: solid 1px #283139;
+}
+
+.lumora-logo{
+  width: 20px;
+}
+
+
+
+.pages-link ul{
+  list-style: none;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  gap: 25px;
+  cursor: pointer;
+}
+
+.pages-link ul a{
+  text-decoration: none;
+  color: inherit;
+}
+
+.pages-link ul a:hover{
+  color: #1f6feb;
+}
+
+.web-name{
+  display: flex;
+  flex-direction: row;
+  gap: 15px;
+}
+
+.get-started, .image-text button{
+  background-color: #1f6feb;
+  padding: 10px 20px;
+  border-radius: 20px;
+  border: none;
+  color: #f4f4f4;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.toggle{
+  background-color: #283139;
+  border-radius: 50%;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.home-page{
+  width: 100%;
+  height: 100vh;
+  background-color: #111518;
+  color: #f4f4f4;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding-top: 1rem;
+  text-align: center;
+  
+  
+}
+
+.hero-image{
+  background-image: 
+    linear-gradient(
+      rgba(0,0,0,0.1) 0%,
+      rgba(0,0,0,0.4) 100%
+      ),
+    url("https://lh3.googleusercontent.com/aida-public/AB6AXuBf7JSfOIDM8utpVKi60JmuAS23kN0AwaLHAiK0vfjYtq-C8dukrEcUJxLiRphTosQnRPB4siBqo3MgYQ8sR7q8k3lJfcoUDZZNgSlYgQ-cm_vTn0aAYTfszQeN58Ku46G2sZk95X1kMZSYd_H3NrNJ216ChwhSM2LE7qENdzDs8TTc2uxEZdITONSfUa1KU3OvUHMqY8xHWWcgbEhPmPwO5usxCv21JqPtnYeeiQvaM_sjMvlPKMzqIa5Mq2EdgtIJSsysPd9Ti5g");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  min-height: 100vh;
+  border-radius: 10px;
+  padding: 0px 10.5rem;
+
+  display: flex;
+  align-items: center;
+}
+
+.image-text{
+   display: flex;
+  flex-direction: column;
+  gap: 8px;
+  text-align: center;
+  
+}
+
+.hero-heading{
+  font-size: 1.5rem;
+  line-height: 1.25;
+  letter-spacing: -0.033em;
+}
+
+.hero-sub{
+  font-size: 0.755rem; 
+  font-weight: 400;    
+  line-height: 1.5; 
+}
+
+.guide{
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+ padding: 0px 12rem;
+  text-align: left;
+  width: 100%;
+}
+
+.guide-text{
+  display: flex;
+  gap: 20px;
+  flex-direction: column;
+  padding-top: 4rem;
+ 
+  
+}
+
+.guide-boxes{
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+  justify-content: space-between;
+  margin-top: 1.5rem;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.guide-box{
+  border: solid 1px #283139;
+  padding: 15px;
+  padding-right: 12%;
+  width: auto;
+  border-radius: 5px;
+  background-color: #11191f;
+}
+
+.guidebox-text p{
+  font-size: 0.575rem; 
+  font-weight:normal;
+  color: #afafaf;    
+  line-height: 1.5; 
+  
+}
+
+.guidebox-text h2{
+    font-size: 1rem;
+  line-height: 1.25;
+  letter-spacing: -0.033em;
+  padding-bottom: 5px;
+}
+
+.benefits-image{
+  background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuDnrpgR40vQwDrJ0V2RCMEwAwpnfzUTRn6y8BHe-Ft7BROqWTpLKAS7W_0FKsMtQNT2kyyK2inDs0eGbC11W-d1SAJ6PNEnuYfPnncoa-1vY5CjZlvyOlycnRNTco6WnbK9PbqGYHCF8hn1a29ByeruhNKH99ezzIJODx8-IzXCfM3tEcXhDq5kZtm8igYgSgqc8l_Q_KATx611b2MjrbhTNGqBAa557HRXjMDInoCGIWSaUhU4LJxDRuRmI4VWVTBGH-UxZYOZMB8");
+    background-repeat: no-repeat;
+  background-size: cover;
+   background-position: center;
+  border: solid 1px #283139;
+  padding: 85px;
+  padding-right: 20%;
+  width: auto;
+  margin-bottom: 15px;
+  border-radius: 10px;
+  background-color: #11191f;
+
+}
+
+.benefit-box{
+  width: 30%;
+}
+
+.benefits-image2 {
+  background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuCvOr1pUi4lLGp67g-LoA60eeTA1wjiPmpNwbJN4eXzfcEG1CRqLLhGo2CGlF3z4Elgdy_ag4qmSsTpTuJhqHl0N4N8o92meXYXJWL2ibgwUouwKPV7PC53s9MJ4FXctF7WV9jOeSyuojjOpGA3D6xXFKA6h8IrnTwIY4RQVsCi5ygWt8Ih6AaTnaq7OFVEd2PmnzxO-UFkD5qN-JQ0wMbVB-8vWNlf0RdqLpU4TnV0P2mgJdpSJvrt-wy_unpQPvwFQFDKP_aSMPM");
+   background-repeat: no-repeat;
+  background-size: cover;
+   background-position: center;
+  border: solid 1px #283139;
+  padding: 85px;
+  padding-right: 20%;
+  width: auto;
+  margin-bottom: 15px;
+  border-radius: 10px;
+  background-color: #11191f;
+}
+
+.benefits-image3{
+  background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuBD2C2kIkkBUTrL3bsL3YtRv_f0FJYi1KS35BNxPK-_SqYQ53myNKbZr0VTsu86UDz9mHHDW_ErZPR4dlLzqrU7juX8c5FTr3Ghi5Nm3j6YHnEAZc8uUtZWNMXTn0lFzCnsHXxXj3MXIVRh5WwS9nep76HDRzyzBb1HtvKOaKBa8yw6m_vqZMT9B9-P01nvPuemgBkI3riz3sYYEJ0SWZxm8IdXLGhw21hd4AS7mrBmSQeG5TVHDFLQSP3tGklEy0-yBRbm7lsZ8wc");
+     background-repeat: no-repeat;
+  background-size: cover;
+   background-position: center;
+  border: solid 1px #283139;
+  padding: 85px;
+  padding-right: 20%;
+  width: auto;
+  margin-bottom: 15px;
+  border-radius: 10px;
+  background-color: #11191f;
+}
+
+.getting-started{
+  margin-top: 10%;
+}
+
+.getting-started h2{
+  font-size: 1.5rem;
+  line-height: 1.25;
+  letter-spacing: -0.033em;
+}
+
+.getting-started button{
+  margin-top: 5%;
+}
+
+footer{
+  margin-top: 10%;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  
+}
+
+.footer-text{
+  display: flex;
+    font-size: 0.735rem; 
+  font-weight:normal;
+  color: #afafaf;    
+  line-height: 1.5; 
+  justify-content: space-evenly;
+  cursor: pointer;
+}
+
+.footer-icons{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1%;
+  margin-top: 2%;
+  cursor: pointer;
+}
+
+.footer-copyright{
+  display: flex;
+  margin-top: 2%;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+    font-size: 0.735rem; 
+  font-weight:normal;
+  color: #afafaf;    
+  line-height: 1.5; 
+  justify-content: space-evenly;
+  cursor: pointer;
+}
