@@ -1,18 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <link rel = "stylesheet" href = "contact.css">
+  <!-- <link rel = "stylesheet" href = "style.css"> -->
+  <link rel = "stylesheet" href = "getstarted.css">
   <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 48 48'%3E%3Cpath fill='white' d='M24 4H6V17.3333V30.6667H24V44H42V30.6667V17.3333H24V4Z'/%3E%3C/svg%3E" />
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Lumora</title>
 </head>
 <body>
-  
-
-    <!-- About page code goes here. -->
-
-
   <nav class = "nav-bar">
 
         
@@ -54,51 +50,53 @@
     </nav>
 
 
-    <!-- About page code goes here. -->
+    <!-- Signup page code goes here. -->
 
 
 
-    <form action="https://formsubmit.co/perryalex2404@gmail.com" method="POST">
-     <div class="contact-wrapper">
-    <div class="layout-content-container">
-      <h2 class="section-title">Contact Us</h2>
-
+    <div class="container">
+      <form action = "https://formsubmit.co/perryalex2404@gmail.com" method ="POST">
+    <div class="form-box">
+      <h2>Register</h2>
       <div class="input-group">
-        <label>
-          <p class="label-text">Your Name</p>
-          <input type="text" name="name" placeholder="Enter your name" />
-        </label>
+        <input type="text" placeholder="Name">
       </div>
-
       <div class="input-group">
-        <label>
-          <p class="label-text">Your Email</p>
-          <input type="email" name ="email" placeholder="Enter your email" />
-        </label>
-      </div>
+        <select name="Department">
+          <option value="">Select Department</option>
+          <option value="botany">Botany</option>
+          <option value="cell-biology-genetics">Cell Biology and Genetics</option>
+          <option value="chemistry">Chemistry</option>
+          <option value="computer-science">Computer Science</option>
+          <option value="geosciences">Geosciences</option>
+          <option value="marine-sciences">Marine Sciences</option>
+          <option value="mathematics">Mathematics</option>
+          <option value="microbiology">Microbiology</option>
+          <option value="physics">Physics</option>
+          <option value="zoology">Zoology</option>
+        </select>
 
+      </div>
       <div class="input-group">
-        <label>
-          <p class="label-text">Subject</p>
-          <input type="text" name="subject" placeholder="Enter the subject" />
-        </label>
+        <input type="text" name="Matriculation Number" placeholder="Matriculation Number">
       </div>
-
       <div class="input-group">
-        <label>
-          <p class="label-text">Message</p>
-          <textarea name="messaage" placeholder="Enter your message"></textarea>
-        </label>
+        <input type="password" name="password" placeholder="Password" required>
       </div>
+      <div class="radio-group">
+        <div class="radio">
+        <input type="radio" name="Courerep?" >
+        <p>I am a course representative</p>
+        </div>
 
-      <div class="button-group">
-        <button type="submit">
-          <span>Send Message</span>
-        </button>
       </div>
+      <div class="button-wrapper">
+        <button>Register</button>
+      </div>
+     
     </div>
+    </form>
   </div>
-</form>
 
 
 
