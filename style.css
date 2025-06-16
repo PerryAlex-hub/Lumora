@@ -290,3 +290,102 @@ footer{
   justify-content: space-evenly;
   cursor: pointer;
 }
+
+/* Responsive Design for Tablets and Phones */
+@media screen and (max-width: 1024px) {
+  .hero-image {
+    padding: 0 5rem;
+  }
+
+  .guide {
+    padding: 0 4rem;
+  }
+
+  .benefits-image,
+  .benefits-image2,
+  .benefits-image3 {
+    padding: 50px;
+    padding-right: 10%;
+  }
+
+  .benefit-box {
+    width: 48%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .nav-bar {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+  }
+
+  .pages-link ul {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .hero-image {
+    flex-direction: column;
+    padding: 0 2rem;
+    text-align: center;
+  }
+
+  .guide {
+    padding: 0 2rem;
+  }
+
+  .guide-boxes {
+    flex-direction: column;
+  }
+
+  .benefits-image,
+  .benefits-image2,
+  .benefits-image3 {
+    padding: 40px;
+    padding-right: 5%;
+    width: 100%;
+  }
+
+  .benefit-box {
+    width: 100%;
+  }
+
+  .footer-text {
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .hero-heading {
+    font-size: 1.2rem;
+  }
+
+  .hero-sub {
+    font-size: 0.65rem;
+  }
+
+  .get-started, .image-text button {
+    padding: 8px 16px;
+    font-size: 0.75rem;
+  }
+
+  .guidebox-text h2 {
+    font-size: 0.9rem;
+  }
+
+  .guidebox-text p {
+    font-size: 0.5rem;
+  }
+
+  .footer-icons {
+    gap: 10px;
+  }
+
+  .footer-copyright,
+  .footer-text {
+    font-size: 0.6rem;
+  }
+}
